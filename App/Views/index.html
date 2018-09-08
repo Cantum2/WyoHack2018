@@ -15,12 +15,40 @@
     <script src="App/app.config.js"></script>
     <script src="App/app.routes.js"></script>
 
+    <link href="App/Styles/Styles.css" rel="stylesheet">
     <script src="App/Controllers/LandingCtrl.js"></script>
 
   </head>
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <a class="navbar-brand">
+      <span class="text-light">Ether Radio Token</span>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon p-1">
+        <i class="fas fa-bars"></i>
+      </span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link text-light" href="#!/discover">Discover</a>
+        <a class="nav-item nav-link text-light" href="#!/team">Team</a>
+        <a class="nav-item nav-link text-light" href="#!/roadmap">Roadmap</a>
+        <a class="nav-item nav-link text-light" href="#!/documents">Documents</a>
+        <a class="nav-item nav-link text-light" href="#!/faq">FAQ</a>
+      </div>
+    </div>
+  </nav>
   <body ng-controller="LandingCtrl">
     <main ng-view>
 
     </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
   </body>
 </html>
