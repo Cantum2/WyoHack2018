@@ -1,0 +1,73 @@
+nav {
+  text-shadow: 1.2px 1.3px 1.4px black;
+  opacity: 0.85;
+  background: #000;
+}
+.nav-link {
+  font-size: 1.2em;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid hsl(50, 97%, 61%);
+  color: #c7c7c7;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+}
+
+.navbar-toggler {
+  background: white;
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 463px) {
+  .nav li:first-child {
+    border-bottom: 1px solid #000;
+  }
+}
+
+@media (min-width: 950px) {
+  .nav-link:hover {
+    border-bottom: 1px solid hsl(50, 97%, 61%);
+    transform: none;
+  }
+}
+
+.spacer5{
+  margin-top: 50px;
+}
+.jumbotron{
+  background-color:rgba(0,0,0,0.4);
+  color: white;
+}
+
+#landingBackground{
+  height: 100vh;
+  background: url("Img/home-bg.jpg");
+}
+
+#discoverBody{
+  height: 100vh;
+  background: url("Img/contact-bg.jpg");
+}
+
+#teamBackground{
+  height: 100vh;
+  background: url("Img/team_back.jpg");
+}
+
+#roadmapBackground{
+  height: 100vh;
+  background: url("Img/roadmap_background.png");
+}
+
+#documentsBackground{
+  height: 100vh;
+  background: url("Img/documents_background.png");
+}
+
+#documentsLink{
+  color: white;
+  text-decoration: underline;
+}

@@ -1,3 +1,26 @@
-<div>
-  <p>Hello from landing</p>
+<div id="landingBackground">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-lg- p-3 justify-content-center align-content-center m-0-auto">
+        <div class="jumbotron">
+          <center><h1>Welcome to Ether Radio</h1></center>
+          <ul>
+            <li>Reject and decline track submission</li>
+            <li>EtherRaio AutoDj managed by On-chain Governance.</li>
+            <li>No obtrusive ads, ever.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-6 p-3 justify-content-center align-content-center m-0-auto">
+        <div class="jumbotron">
+          <h1>Sign up to get updates</h1>
+          <label for="userEmail">Email</label>
+          <input type="email" id="userEmail" name="userEmail"class="form-control" ng-model="user.email"/>
+          <label for="userEmail" id="userFirst" name="userFirst">First Name</label>
+          <input type="text" id="userFirst" name="userFirst" class="form-control" maxlength="64" ng-model="user.firstName"/>
+          <button ng-click="submitForm()" class="btn btn-md btn-info" style="margin-top: 5px;">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
