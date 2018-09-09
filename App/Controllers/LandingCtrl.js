@@ -16,6 +16,9 @@ app.controller('LandingCtrl', function($scope, $http){
     $http.post('/setuseremails', userData).then(function(success, error){
       if(success){
         $scope.showFormSuccess = true;
+        $scope.user.email = "";
+        $scope.user.firstName = "";
+        alert('Thank you!')
       }else{
         $scope.showForError = true;
       }
