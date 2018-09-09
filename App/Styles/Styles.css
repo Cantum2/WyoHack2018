@@ -1,7 +1,7 @@
 nav {
-  text-shadow: 1.2px 1.3px 1.4px black;
-  opacity: 0.85;
-  background: #000;
+  /* text-shadow: 1.2px 1.3px 1.4px black; */
+  opacity: 0.95;
+  background: #FFF;
 }
 .nav-link {
   font-size: 1.2em;
@@ -17,7 +17,7 @@ nav {
 }
 
 .navbar-toggler {
-  background: white;
+  background: black;
   opacity: 0.5;
 }
 
@@ -59,7 +59,7 @@ nav {
 
 #roadmapBackground{
   height: 100vh;
-  background: url("Img/roadmap_background.png");
+  background: url("Img/faq_background.png");
 }
 
 #documentsBackground{
@@ -70,4 +70,14 @@ nav {
 #documentsLink{
   color: white;
   text-decoration: underline;
+}
+
+#faqBackground{
+  height: 100vh;
+
+  background: url("Img/faq_background.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
